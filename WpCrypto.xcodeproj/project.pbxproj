@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D7FD6FC54E04DAAFFEF2908 /* Pods_WpCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB8A014128D0736DB14B1D0 /* Pods_WpCrypto.framework */; };
+		6B3BD0A52B7D5E340060F8A5 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BD0A42B7D5E340060F8A5 /* RegisterView.swift */; };
+		6B3BD0AA2B7D5F7D0060F8A5 /* TabViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BD0A92B7D5F7D0060F8A5 /* TabViewModels.swift */; };
+		6B3BD0AF2B7D60DB0060F8A5 /* LoginTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BD0AE2B7D60DB0060F8A5 /* LoginTabView.swift */; };
+		6B3BD0B12B7D60E90060F8A5 /* RegisterTab1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BD0B02B7D60E90060F8A5 /* RegisterTab1View.swift */; };
+		6B3BD0B32B7D60F70060F8A5 /* RegisterTab2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BD0B22B7D60F70060F8A5 /* RegisterTab2View.swift */; };
+		6B3BD0B52B7E9C9C0060F8A5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BD0B42B7E9C9C0060F8A5 /* LoginView.swift */; };
+		6B3BD0B72B7EB2C50060F8A5 /* WalletHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BD0B62B7EB2C50060F8A5 /* WalletHomeView.swift */; };
+		6B3BD0B92B80ABBB0060F8A5 /* TokenListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BD0B82B80ABBB0060F8A5 /* TokenListView.swift */; };
+		6B3BD0BB2B80AC010060F8A5 /* TokenListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BD0BA2B80AC010060F8A5 /* TokenListItem.swift */; };
+		6B3BD0BE2B8151420060F8A5 /* GeneralConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BD0BD2B8151420060F8A5 /* GeneralConstant.swift */; };
+		6B3BD0C12B8213770060F8A5 /* GeneralExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BD0C02B8213770060F8A5 /* GeneralExtension.swift */; };
+		6B3BD0C32B8216C40060F8A5 /* LoginRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BD0C22B8216C40060F8A5 /* LoginRegisterView.swift */; };
 		6BA54B572972C1F400266B33 /* WpCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA54B562972C1F400266B33 /* WpCryptoApp.swift */; };
-		6BA54B592972C1F400266B33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA54B582972C1F400266B33 /* ContentView.swift */; };
 		6BA54B5B2972C1F500266B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA54B5A2972C1F500266B33 /* Assets.xcassets */; };
 		6BA54B5E2972C1F500266B33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA54B5D2972C1F500266B33 /* Preview Assets.xcassets */; };
+		6BA54B652972CFAA00266B33 /* CryptoGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA54B642972CFAA00266B33 /* CryptoGeneral.swift */; };
+		6BA54B672972DAAE00266B33 /* CryptoWalletInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA54B662972DAAE00266B33 /* CryptoWalletInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44784769D933CAFFB7385608 /* Pods-WpCrypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WpCrypto.debug.xcconfig"; path = "Target Support Files/Pods-WpCrypto/Pods-WpCrypto.debug.xcconfig"; sourceTree = "<group>"; };
+		6B3BD0A42B7D5E340060F8A5 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		6B3BD0A92B7D5F7D0060F8A5 /* TabViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewModels.swift; sourceTree = "<group>"; };
+		6B3BD0AE2B7D60DB0060F8A5 /* LoginTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTabView.swift; sourceTree = "<group>"; };
+		6B3BD0B02B7D60E90060F8A5 /* RegisterTab1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTab1View.swift; sourceTree = "<group>"; };
+		6B3BD0B22B7D60F70060F8A5 /* RegisterTab2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTab2View.swift; sourceTree = "<group>"; };
+		6B3BD0B42B7E9C9C0060F8A5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6B3BD0B62B7EB2C50060F8A5 /* WalletHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletHomeView.swift; sourceTree = "<group>"; };
+		6B3BD0B82B80ABBB0060F8A5 /* TokenListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenListView.swift; sourceTree = "<group>"; };
+		6B3BD0BA2B80AC010060F8A5 /* TokenListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenListItem.swift; sourceTree = "<group>"; };
+		6B3BD0BD2B8151420060F8A5 /* GeneralConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralConstant.swift; sourceTree = "<group>"; };
+		6B3BD0C02B8213770060F8A5 /* GeneralExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralExtension.swift; sourceTree = "<group>"; };
+		6B3BD0C22B8216C40060F8A5 /* LoginRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterView.swift; sourceTree = "<group>"; };
 		6BA54B532972C1F400266B33 /* WpCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WpCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA54B562972C1F400266B33 /* WpCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WpCryptoApp.swift; sourceTree = "<group>"; };
-		6BA54B582972C1F400266B33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6BA54B5A2972C1F500266B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BA54B5D2972C1F500266B33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6BA54B642972CFAA00266B33 /* CryptoGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoGeneral.swift; sourceTree = "<group>"; };
+		6BA54B662972DAAE00266B33 /* CryptoWalletInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletInfo.swift; sourceTree = "<group>"; };
+		7A58231D97B798E979D90139 /* Pods-WpCrypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WpCrypto.release.xcconfig"; path = "Target Support Files/Pods-WpCrypto/Pods-WpCrypto.release.xcconfig"; sourceTree = "<group>"; };
+		7BB8A014128D0736DB14B1D0 /* Pods_WpCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WpCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +56,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7FD6FC54E04DAAFFEF2908 /* Pods_WpCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B3BD0A82B7D5F430060F8A5 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6BA54B662972DAAE00266B33 /* CryptoWalletInfo.swift */,
+				6B3BD0A92B7D5F7D0060F8A5 /* TabViewModels.swift */,
+				6B3BD0BA2B80AC010060F8A5 /* TokenListItem.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		6B3BD0AC2B7D5FD60060F8A5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6B3BD0AD2B7D609B0060F8A5 /* TabViews */,
+				6B3BD0A42B7D5E340060F8A5 /* RegisterView.swift */,
+				6B3BD0B42B7E9C9C0060F8A5 /* LoginView.swift */,
+				6B3BD0B62B7EB2C50060F8A5 /* WalletHomeView.swift */,
+				6B3BD0B82B80ABBB0060F8A5 /* TokenListView.swift */,
+				6B3BD0C22B8216C40060F8A5 /* LoginRegisterView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		6B3BD0AD2B7D609B0060F8A5 /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				6B3BD0AE2B7D60DB0060F8A5 /* LoginTabView.swift */,
+				6B3BD0B02B7D60E90060F8A5 /* RegisterTab1View.swift */,
+				6B3BD0B22B7D60F70060F8A5 /* RegisterTab2View.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		6B3BD0BC2B8151150060F8A5 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				6B3BD0BD2B8151420060F8A5 /* GeneralConstant.swift */,
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+		6B3BD0BF2B8213390060F8A5 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6B3BD0C02B8213770060F8A5 /* GeneralExtension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
 		6BA54B4A2972C1F400266B33 = {
 			isa = PBXGroup;
 			children = (
 				6BA54B552972C1F400266B33 /* WpCrypto */,
 				6BA54B542972C1F400266B33 /* Products */,
+				E4F3334A9DBCE9C43A795E81 /* Pods */,
+				8FE25A29222C02E6508DEC2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +133,14 @@
 		6BA54B552972C1F400266B33 /* WpCrypto */ = {
 			isa = PBXGroup;
 			children = (
+				6B3BD0BF2B8213390060F8A5 /* extensions */,
 				6BA54B562972C1F400266B33 /* WpCryptoApp.swift */,
-				6BA54B582972C1F400266B33 /* ContentView.swift */,
+				6B3BD0AC2B7D5FD60060F8A5 /* views */,
+				6B3BD0A82B7D5F430060F8A5 /* models */,
 				6BA54B5A2972C1F500266B33 /* Assets.xcassets */,
+				6B3BD0BC2B8151150060F8A5 /* constants */,
 				6BA54B5C2972C1F500266B33 /* Preview Content */,
+				6BA54B642972CFAA00266B33 /* CryptoGeneral.swift */,
 			);
 			path = WpCrypto;
 			sourceTree = "<group>";
@@ -67,6 +153,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8FE25A29222C02E6508DEC2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BB8A014128D0736DB14B1D0 /* Pods_WpCrypto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4F3334A9DBCE9C43A795E81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44784769D933CAFFB7385608 /* Pods-WpCrypto.debug.xcconfig */,
+				7A58231D97B798E979D90139 /* Pods-WpCrypto.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BA54B612972C1F500266B33 /* Build configuration list for PBXNativeTarget "WpCrypto" */;
 			buildPhases = (
+				0B1DCA08A5C5E4A7D9F36D6B /* [CP] Check Pods Manifest.lock */,
 				6BA54B4F2972C1F400266B33 /* Sources */,
 				6BA54B502972C1F400266B33 /* Frameworks */,
 				6BA54B512972C1F400266B33 /* Resources */,
+				E4F229FD5A0B13D8EFD0D64A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +237,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B1DCA08A5C5E4A7D9F36D6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WpCrypto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F229FD5A0B13D8EFD0D64A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WpCrypto/Pods-WpCrypto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WpCrypto/Pods-WpCrypto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WpCrypto/Pods-WpCrypto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6BA54B4F2972C1F400266B33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BA54B592972C1F400266B33 /* ContentView.swift in Sources */,
+				6B3BD0B92B80ABBB0060F8A5 /* TokenListView.swift in Sources */,
+				6B3BD0B32B7D60F70060F8A5 /* RegisterTab2View.swift in Sources */,
+				6B3BD0AF2B7D60DB0060F8A5 /* LoginTabView.swift in Sources */,
+				6B3BD0BB2B80AC010060F8A5 /* TokenListItem.swift in Sources */,
+				6B3BD0C32B8216C40060F8A5 /* LoginRegisterView.swift in Sources */,
+				6B3BD0C12B8213770060F8A5 /* GeneralExtension.swift in Sources */,
+				6B3BD0A52B7D5E340060F8A5 /* RegisterView.swift in Sources */,
+				6B3BD0B72B7EB2C50060F8A5 /* WalletHomeView.swift in Sources */,
 				6BA54B572972C1F400266B33 /* WpCryptoApp.swift in Sources */,
+				6BA54B652972CFAA00266B33 /* CryptoGeneral.swift in Sources */,
+				6BA54B672972DAAE00266B33 /* CryptoWalletInfo.swift in Sources */,
+				6B3BD0B52B7E9C9C0060F8A5 /* LoginView.swift in Sources */,
+				6B3BD0B12B7D60E90060F8A5 /* RegisterTab1View.swift in Sources */,
+				6B3BD0BE2B8151420060F8A5 /* GeneralConstant.swift in Sources */,
+				6B3BD0AA2B7D5F7D0060F8A5 /* TabViewModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +421,7 @@
 		};
 		6BA54B622972C1F500266B33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44784769D933CAFFB7385608 /* Pods-WpCrypto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -275,6 +436,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,6 +452,7 @@
 		};
 		6BA54B632972C1F500266B33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A58231D97B798E979D90139 /* Pods-WpCrypto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +467,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

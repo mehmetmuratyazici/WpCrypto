@@ -1,0 +1,6 @@
+framework module Pods_WpCrypto {
+  umbrella header "Pods-WpCrypto-umbrella.h"
+
+  export *
+  module * { export * }
+}

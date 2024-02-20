@@ -11,7 +11,7 @@ import SwiftUI
 struct WpCryptoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginRegisterView(loginViewModel: LoginViewModel())
         }
     }
 }
